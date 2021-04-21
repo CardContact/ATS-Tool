@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.cardcontact</groupId>
+  <artifactId>ats-tool</artifactId>
+  <version>1.0</version>
+  <name>Answer-To-Select (ATS) Tool</name>
+  <packaging>jar</packaging>
+  
+  <properties>
+        <maven.compiler.source>9</maven.compiler.source>
+        <maven.compiler.target>9</maven.compiler.target>
+  </properties>
+  
+  <build>
+  <plugins>
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <configuration>
+        <archive>
+            <manifest>
+                <mainClass>
+                    de.cardcontact.atstool.ATSTool
+                </mainClass>
+            </manifest>
+        </archive>
+    </configuration>
+</plugin>
+  </plugins>
+  </build>
+</project>
