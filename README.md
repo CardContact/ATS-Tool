@@ -1,9 +1,9 @@
 # ATS-Tool
 Tool to display the ATS and communication parameter of ISO 14443 cards.
 
-Supposed to work with Identiv uTrust / CLOUD 47x0 F dual interface reader.
+Supposed to work with Identive uTrust / CLOUD 47x0 F dual interface reader.
 
-##Build
+## Build
 
 Use
 
@@ -11,7 +11,7 @@ Use
 
 to create jar in target folder.
 
-##Using
+## Using
 
 Call with
 
@@ -23,7 +23,7 @@ to show a list of readers
      Identive Identive CLOUD 4500 F Dual Interface Reader [uTrust 4700 F Contact Reader] (53201519204084) 00 00
      Identive Identive CLOUD 4500 F Dual Interface Reader [uTrust 4700 F CL Reader] (53201519204084) 01 00
 
-Select a reader with
+Selecting a reader with
 
     java -jar target/ats-tool-1.0.jar -r "Identive Identive CLOUD 4500 F Dual Interface Reader [uTrust 4700 F CL Reader] (53201519204084) 01 00"
 
